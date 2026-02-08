@@ -1,35 +1,78 @@
-# CODTECH Internship - Task 1
+#Task 1-Test Automation Using Selenium
 
-## Intern Details
-- **Name:** Katikala Kaveri
-- **Intern ID:** CTIS5250
+*Company:*CODTECH IT SOLUTIONS
 
-## Task Name
-Test Automation Using Selenium
+*Intern Name:*Katikala Kaveri
 
-## Description
-This project automates the login and navigation functionality of a sample web application using Selenium WebDriver in Python.  
-The automation includes:
-- Logging into the web app
-- Verifying login messages
-- Logging out
-- Capturing screenshots for proof of execution
+*Intern Id:*CTIS5250
 
-## Tools Used
-- Python
-- Selenium WebDriver
-- Mozilla Firefox
+*Domain:*Software Testing
 
-## Files in Repository
-- `login_navigation_test.py` : Selenium script for login and logout automation
-- `Test_Execution_Report.txt` : Test execution report
-- `proof_screenshots` folder (optional) : Contains screenshots
-  - `login_success.png`
-  - `logout_success.png`
-  - `cmd_run.png`
-- `README.md` : Project description and instructions
+*Duration:*4 Weeks
 
-## Proof of Execution
+*Mentor:*Neela Santosh
+
+PROJECT TITLE: Test Automation Using Selenium
+
+Objective: Automate the testing of a sample web application’s login and navigation functionality using Selenium WebDriver.
+
+Project Description:
+
+This project demonstrates automated testing of a web application using Selenium WebDriver with Python.
+
+The automation verifies:
+
+1.Successful login functionality
+
+2.Navigation to the secure page after login
+
+3.Proper execution without manual intervention
+
+4.The task was completed as part of the CODTECH Internship Program.
+
+Tools & Technologies Used:
+
+Operating System: Linux
+
+Programming Language: Python 3
+
+Automation Tool: Selenium WebDriver
+
+Browser: Mozilla Firefox
+
+Driver: Geckodriver
+
+Editor: Terminal / Nano
+
+Test Application Used
+
+URL: https://the-internet.herokuapp.com/login
+
+Username: tomsmith
+
+Password: SuperSecretPassword!
+
+Automation Steps Performed:
+
+Launch Firefox browser using Selenium WebDriver
+
+Open the login page
+
+Enter valid username and password
+
+Submit the login form
+
+Verify successful login by checking secure page text
+
+Capture screenshot after login
+
+Print execution status in terminal
+
+Close the browser
+
+Conclusion:
+
+The Selenium automation script successfully tested the login and navigation functionality of the sample web application.
 
 ### Login Screenshot
 ![Login](login_success.png)
